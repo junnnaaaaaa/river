@@ -20,6 +20,7 @@ riverctl spawn 'kill kitty'
 riverctl spawn waybar
 riverctl spawn swww-daemon
 riverctl spawn kitty
+riverctl spawn nm-applet
 
 
 
