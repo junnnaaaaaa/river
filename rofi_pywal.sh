@@ -41,6 +41,10 @@ wal -i "$selected"
 # Set the wallpaper with swww
 swww img "$selected"
 
+#restart waybar
+pkill waybar
+waybar
+
 # Optional: Notify the user
 notify-send "Wallpaper Changed" "Applied $selected with Pywal."
 

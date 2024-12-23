@@ -36,7 +36,7 @@ riverctl map normal Super+Shift M spawn 'hyprshot -m region'
 riverctl map normal Super C close
 #wallpaper
 
-riverctl map normal Super+Shift W spawn './rofi_pywal.sh'
+riverctl map normal Super+Shift W spawn '~/.config/river/rofi_pywal.sh'
 #rofi
 riverctl map normal Alt D spawn 'rofi -show drun'
 
